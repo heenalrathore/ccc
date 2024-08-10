@@ -1,0 +1,31 @@
+1) mkdir= to make new directory
+   //directory = folder 
+
+2) ls = list out 
+   //will show all directories
+
+3) touch = to create file
+
+4) cd .. = change directory
+   //to exit directory(like close button) - 1st - exit from file ,,, 2nd - exit from git
+
+5) cd jiet_git/ = for entering into git
+6) clear = to clear screen
+7) cd = to come on home location
+8) pwd = location of the directory
+9) rmdir = remove directory
+10) git status = to check if git can be used
+11) git init = to initialise in git
+12) git add. = to add directories
+13) levels : untrack area , staging area , 
+
+14) git commit -m "work with frontend using html css" = to commit or update
+ on git through linux
+
+15) git config --global user.email heenal2004@gmail.com 
+  // to add email id
+
+16) git config --global user.name heenalrathore
+  // to add user name
+
+17)  

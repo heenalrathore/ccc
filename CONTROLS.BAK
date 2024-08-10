@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <conio.h>
+int main(void){
+void control_statements_demo(); {
+    int num,i,count;
+
+    // Conditional Statements
+    printf("Enter a number between 1 and 10: ");
+    scanf("%d", &num);
+
+    // If-else if-else
+    if (num < 1) {
+	printf("The number is too small!\n");
+    } else if (num > 10) {
+	printf("The number is too large!\n");
+    } else {
+	printf("The number %d is within the valid range.\n", num);
+    }
+
+    // For Loop
+    printf("\nFor loop demonstration:\n");
+    for (i = 1; i <= 5; i++) {
+	if (i == 3) {
+	    printf("Skipping number 3...\n");
+	    continue;  // Skip the rest of the loop body when i == 3
+	}
+	printf("Number %d\n", i);
+    }
+
+    // While Loop
+    printf("\nWhile loop demonstration:\n");
+    count = 0;
+    while (count < 5) {
+	count++;
+	if (count == 4) {
+	    printf("Breaking out of the loop at count %d...\n", count);
+	    break;  // Exit the loop when count is 4
+	}
+	printf("Count is %d\n", count);
+    }
+}
+    getch();
+    clrscr();
+    return 0;
+}
